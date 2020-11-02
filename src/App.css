@@ -1,0 +1,154 @@
+/* Header Styling */
+.Header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 25px;
+}
+
+.Header nav a {
+  color: black;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.Header nav a:hover {
+  background: black;
+  color: white;
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  transition: 0.3s;
+}
+
+/* Home Styling */
+h3{
+  font-size: 2.5em;
+}
+
+p{
+  font-size: 1.5em;
+}
+
+.body {
+  min-height: 100vh;
+  padding: 15em 10em 0em 10em;
+  background-color: red;
+}
+
+#hero{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  padding-bottom: 12.4em;
+}
+
+#hero-text{
+  padding-top: 8em;
+}
+
+#about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 12.4em;
+}
+
+#people{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 12.4em;
+}
+
+#people-img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+}
+
+/* Articles Styling */
+.ArticleListing {
+  margin: 0 auto;
+  max-width: min(80%, 1080px);
+  padding: 0 10px;
+}
+
+.ArticleListing h1 {
+  font-size: 50px;
+}
+
+.ArticleCard {
+  border: solid black 1px;
+  display: flex;
+  flex-direction: row;
+  padding: 18px 28px;
+  margin: 40px 0;
+}
+
+.ArticleCard a {
+  font-weight: bold;
+}
+
+.ArticleCard h2 {
+  margin-top: 0;
+}
+
+.ArticleCardImage {
+  flex-basis: 30%;
+  padding-right: 28px;
+}
+
+.ArticleCardImage img {
+  height: auto;
+  width: 100%;
+}
+
+.ArticleCardText {
+  flex-basis: 70%;
+}
+
+.ArticleCardText p.Date {
+  margin-top: -12px;
+  margin-bottom: 18px;
+  padding-left: 4px;
+}
+
+.ArticleHeader p.Date {
+  margin-top: 2px;
+}
+
+.ArticleHeaderWrapper {
+  background-color: #e5e5e5;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 55px;
+  padding-top: 65px;
+  padding-bottom: 25px;
+}
+
+.ArticleHeader {
+  margin: 0 auto;
+  max-width: min(80%, 600px);
+  padding: 0 10px;
+}
+
+.ArticleHeader h1 {
+  font-size: 46px;
+  font-weight: normal;
+  margin: 0;
+}
+
+p.Blurb {
+  font-size: 20px;
+}
+
+.ArticleBody {
+  margin: 0 auto;
+  max-width: min(80%, 600px);
+  padding: 0 auto;
+}
