@@ -36,7 +36,7 @@ p{
 .body {
   min-height: 100vh;
   padding: 15em 10em 0em 10em;
-  background-color: red;
+  background-color: lightskyblue;
 }
 
 #hero{
@@ -69,6 +69,14 @@ p{
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-around;
+}
+
+#programs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 12.4em;
 }
 
 /* Articles Styling */
